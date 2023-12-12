@@ -12,15 +12,34 @@ import Skills from "./Skills";
 const Home = () => {
     return (
         <div className=" overflow-hidden bg-slate-800">
-            <Navbar></Navbar>
-            <Banner></Banner>
-            <About></About>
-            <Skills></Skills>
-            <Education></Education>
-            <Project></Project>
-            <Contact></Contact>
-            
 
+            <Navbar></Navbar>
+
+            <section id="banner">
+            <Banner></Banner>
+            </section>
+
+            <section id="about">
+            <About></About>
+            </section>
+
+
+            <section id="skills">
+            <Skills></Skills>
+            </section>
+
+            <section id="education">
+                <Education></Education>
+                </section>
+
+            <section id="project">
+            <Project></Project>
+            </section>
+
+            <section id="contact">
+            <Contact></Contact>
+            </section>
+       
 
             <Footer></Footer>
         </div>

@@ -6,19 +6,22 @@ import { ContactUs } from "./ContactForm";
 
 const Contact = () => {
     return (
-        <div className='text-white  max-w-7xl mx-auto'>
+        <div className='text-white px-8 mb-12  max-w-7xl mx-auto'>
 
 <div className="text-center mt-32 mb-16">
-       <h1 className="text-4xl my-2 font-medium text-white"> Contact Us</h1> 
+       <h1 data-aos="fade-left"
+     data-aos-duration="2000" className="text-4xl my-2 font-medium  text-red-500"> Contact Us</h1> 
       
        </div>
 
 
-            <div className="lg:flex gap-20">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" 
+     data-aos-duration="2000" className="md:flex gap-20">
 
-            <div className="w-[600px]">
+            <div className="">
                 <h1 className="text-2xl font-medium mb-3">Get in Touch</h1>
-                <p>I am a hard-working, reliable web developer. I love being in this line of work because I am passionate about technology, design, and innovation.</p>
+                <p >I am a hard-working, reliable web developer. I love being in this line of work because I am passionate about technology, design, and innovation.</p>
 
                 <div className="flex items-center mt-3 gap-4">
                 <IoIosContact className="text-3xl" />

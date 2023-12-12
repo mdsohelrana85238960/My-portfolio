@@ -27,18 +27,18 @@ export const ContactUs = () => {
       <label className="label">
             <span className="label-text text-white">Name</span>
           </label>
-      <input className='rounded-sm w-[450px] p-2 text-black' type="text" name="from_name" /> <br />
+      <input className='rounded-sm w-[400px] p-2 text-black' type="text" name="from_name" /> <br />
 
       <label className="label">
             <span className="label-text text-white">Email</span>
           </label>
-      <input className='rounded-sm w-[450px] p-2 text-black' type="email" name="from_email" /> <br />
+      <input className='rounded-sm w-[400px] p-2 text-black' type="email" name="from_email" /> <br />
 
       <label className="label">
             <span className="label-text text-white">Message</span>
           </label>
-      <textarea className='rounded-sm w-[450px] text-black' name="message" /> <br />
-      <input className=' btn' type="submit" value="Send" />
+      <textarea className='rounded-sm w-[400px]  text-black' name="message" /> <br />
+      <input className='my-4 btn w-[400px] text-xl font-bold  btn-outline btn-error' type="submit" value="Send" />
       </form>
     </div>
   );

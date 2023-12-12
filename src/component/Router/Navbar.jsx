@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar fixed z-50 bg-neutral-900">
+    <div className="navbar fixed z-50 bg-gray-700">
       
       <div className="navbar-start">
           <div className="dropdown">
@@ -41,15 +41,15 @@ const Navbar = () => {
 
           <li><a className="text-xl font-medium text-white"  href="#about">About</a></li>
           <li><a className="text-xl font-medium text-white" href="#education">Education</a></li>
-          <li><a className="text-xl font-medium text-white" href="#projects">Projects</a></li>
-          <li><a className="text-xl font-medium text-white" href="#blog">Blog</a></li>
+          <li><a className="text-xl font-medium text-white" href="#project">Projects</a></li>
+          <li><a className="text-xl font-medium text-white" href="#skills">Skills</a></li>
            <li><a className="text-xl font-medium text-white" href="#contact">Contact</a></li>
             
          </ul>
        </div>
 
       <div className="navbar-end">
-        <button className="btn" onClick={downloadResume}>
+        <button className="btn btn-outline btn-error" onClick={downloadResume}>
           RESUME
         </button>
       </div>
