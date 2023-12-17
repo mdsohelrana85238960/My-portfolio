@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Project from "./Project";
 import Contact from "./Router/Contact";
 import Navbar from "./Router/Navbar";
+import Service from "./Service";
 import Skills from "./Skills";
 
 
@@ -35,6 +36,8 @@ const Home = () => {
             <section id="project">
             <Project></Project>
             </section>
+
+            <Service></Service>
 
             <section id="contact">
             <Contact></Contact>

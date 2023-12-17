@@ -7,6 +7,9 @@ const Education = () => {
 <div  className="text-center mt-32 mb-16">
        <h1 data-aos="fade-right"
      data-aos-duration="2000"  className="text-4xl my-2 font-medium  text-red-500"> Education</h1> 
+     <p data-aos="fade-left"
+     data-aos-duration="2000" className="text-white  text-2xl">Educational Qualifications.</p>
+
        </div>
           
 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">

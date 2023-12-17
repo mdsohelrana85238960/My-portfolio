@@ -7,6 +7,8 @@ const Skills = () => {
 <div className="text-center mt-32">
        <h1 data-aos="fade-left"
      data-aos-duration="2000" className="text-4xl my-2 font-medium text-red-500"> Skills</h1> 
+     <p data-aos="fade-right"
+     data-aos-duration="2000" className="text-white  text-2xl">Skills are the expertise or talent needed in order to do a job or task.</p>
        
        </div>
 
