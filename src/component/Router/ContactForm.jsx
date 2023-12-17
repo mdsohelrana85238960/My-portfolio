@@ -23,6 +23,7 @@ export const ContactUs = () => {
 
   return (
     <div className='max-w-7xl mx-auto'>
+      <h1></h1>
       <form ref={form} onSubmit={sendEmail}>
       <label className="label">
             <span className="label-text text-white">Name</span>

@@ -22,25 +22,19 @@ const Banner = () => {
     })
     return (
         
-<div className="hero min-h-screen" style={{backgroundImage: 'url(https://img.freepik.com/free-vector/abstract-business-professional-background-banner-design-multipurpose_1340-16916.jpg)'}}>
+<div className="hero min-h-screen " style={{backgroundImage: 'url(https://img.freepik.com/free-vector/abstract-business-professional-background-banner-design-multipurpose_1340-16916.jpg)'}}>
   <div className="hero-overlay bg-opacity-50"></div>
   <div className="hero-content  text-neutral-content">
    
   <div className="max-w-7xl mx-auto">
             <div className="md:flex md:flex-row-reverse  text-white h-screen items-center justify-between gap-8">
 
-            <div >
+            <div>
+                
                 <img data-aos="fade-left"
-     data-aos-duration="3000" className="w-[800px] " src="https://i.ibb.co/vJ9rzJf/sohel12-01-removebg-preview.png" alt="" />
+     data-aos-duration="3000" className="w-[800px] py-20" src="https://i.ibb.co/vJ9rzJf/sohel12-01-removebg-preview.png" alt="" />
             </div>
-          
-
-
-
-
-
-
-
+         
 
 
            <div data-aos="fade-right"
