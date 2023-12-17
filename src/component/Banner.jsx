@@ -1,4 +1,4 @@
-
+import "../component/css/borderAnimation.css"
 
 import { SiFacebook } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
@@ -31,8 +31,10 @@ const Banner = () => {
 
             <div >
                 <img data-aos="fade-left"
-     data-aos-duration="3000" className="w-[800px]" src="https://i.ibb.co/vJ9rzJf/sohel12-01-removebg-preview.png" alt="" />
+     data-aos-duration="3000" className="w-[800px] " src="https://i.ibb.co/vJ9rzJf/sohel12-01-removebg-preview.png" alt="" />
             </div>
+          
+
 
 
 

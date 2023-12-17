@@ -6,7 +6,7 @@
 const Navbar = () => {
   const downloadResume = () => {
     // Replace 'your_file_id' with the actual file ID from your Google Drive
-    const fileId = '1XiVanz4tHRFV-bDxPMO-vYdc4_Z86wGL';
+    const fileId = '1HsNCzp--qlqRqISzl_TTczYdMl0uy3le';
     const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
 
     // Create a hidden link and trigger a click to download the file
